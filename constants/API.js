@@ -1,1 +1,1 @@
-export const API_URL="https://backend-vertex.onrender.com/api"
+export const API_URL="https://backend-assignment-vertex.onrender.com/api"
