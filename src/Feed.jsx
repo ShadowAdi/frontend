@@ -15,7 +15,7 @@ function Feed() {
       const response = await axios.get(`${API_URL}/posts`)
       const { message, success, posts } = response.data
       if (success) {
-        setPosts(data.posts);
+        setPosts(posts);
     
       } else {
         showToast(message || "Failed to fetch posts", "error");
