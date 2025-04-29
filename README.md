@@ -78,3 +78,42 @@ This is the **frontend** repository for the VertxAI Creator Dashboard assignment
 - Improve credit history tracking
 
 ---
+
+Here's the updated README with a **"How to Run"** section added:
+
+---
+
+## 🧪 How to Run the App Locally
+
+### 🔧 Prerequisites
+
+- Node.js (v16+ recommended)
+- npm or yarn
+
+### 📦 Installation Steps
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/your-username/vertxai-creator-dashboard-frontend.git
+   cd frontend
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+4. **Run the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Visit the app**
+
+   Open your browser and go to:  
+   [http://localhost:5173](http://localhost:5173)
+
+---
