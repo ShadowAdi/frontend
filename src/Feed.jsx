@@ -74,7 +74,7 @@ function Feed() {
 
   const handleReport = async (postId) => {
     try {
-      const response = await axios.post(`${API_URL}/save/${postId}`, {}, {
+      const response = await axios.post(`${API_URL}/report/${postId}`, {}, {
         headers: {
           Authorization: `Bearer ${token}`
         }
